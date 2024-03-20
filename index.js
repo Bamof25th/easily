@@ -12,7 +12,7 @@ app.use(cookieParser());
 app.use(lastVisit);
 app.use(
   session({
-    secret: "vivekSecretKey",
+    secret: "aniketbaghelskey",
     resave: false,
     saveUninitialized: true,
     cookie: { secure: false },
